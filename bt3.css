@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.tb1{
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.tb2{
+  width: 50%;
+  border: 1px solid black;
+}
+.tb3{
+  width: 50%;
+  border: 1px solid black;
+}
+.b2{
+  text-align: center;
+}

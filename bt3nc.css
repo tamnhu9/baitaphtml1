@@ -1,0 +1,105 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Mulish', sans-serif;
+}
+
+.app {
+  background: white;
+  color: #fff;
+}
+
+#form {
+  width: 800px;
+  height: auto;
+  padding: 20px 50px 30px;
+  margin: 100px auto 0;
+  background: url('https://img.freepik.com/free-vector/black-carbon-fiber-texture-pattern-background_1017-33436.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1698969600&semt=ais');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.heading-content {
+  margin-right: 50px;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.first-word {
+  color: #c09e09;
+}
+
+.reservation {
+  margin-bottom: 10px;
+  color: #9c9c9c;
+  font-size: 24px;
+}
+
+.img {
+  color: #9c9c9c;
+}
+
+.freepik {
+  color: #c09e09;
+}
+
+.call-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  background: #c09e09;
+  border-radius: 50%;
+}
+
+.call-img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.call-us {
+  color: #000;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.main label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.main input {
+  width: 100%;
+  height: 33px;
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+.main textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  background: #c09e09;
+  font-weight: 700;
+}

@@ -1,0 +1,39 @@
+
+body{
+	text-align: center;
+	font-family: 'ABeeZee';font-size: 20px;
+	background-color: lightgrey;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  border-bottom: 1px solid grey;
+}
+td{
+	text-align: left;
+}
+.colum,th{
+	text-align: center;
+}
+h1{
+font-family: 'Alatsi';font-size: 70px;
+}
+
+.icon-check{
+	display: block;
+	font-size:20px;
+	color:red;
+}
+.icon-checkk{
+	display: block;
+	font-size:20px;
+	color:teal;
+}
+th:first-child, td:first-child {
+            width: 30%; /* Adjust the width as needed */
+        }
+
